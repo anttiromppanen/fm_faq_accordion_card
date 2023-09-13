@@ -49,7 +49,7 @@ function Card() {
           md:overflow-hiddenmd:bg-[left_calc(140%)_center]
           flex h-full flex-col items-center justify-center 
           bg-no-repeat pb-8 
-          md:basis-1/2 md:bg-[length:150%] md:bg-[left_calc(140%)_center]"
+          md:basis-1/2 md:overflow-hidden md:bg-[length:150%] md:bg-[left_calc(140%)_center]"
         style={{
           backgroundImage: isAboveMd
             ? `url(${bgPatternDesktop})`
